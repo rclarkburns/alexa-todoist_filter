@@ -1,0 +1,41 @@
+PATH
+  remote: .
+  specs:
+    alexa-todist_filter (0.1.0)
+      faraday (~> 0.11.0)
+      thor (~> 0.19.4)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    diff-lcs (1.2.5)
+    faraday (0.11.0)
+      multipart-post (>= 1.2, < 3)
+    multipart-post (2.0.0)
+    rake (10.5.0)
+    rspec (3.5.0)
+      rspec-core (~> 3.5.0)
+      rspec-expectations (~> 3.5.0)
+      rspec-mocks (~> 3.5.0)
+    rspec-core (3.5.4)
+      rspec-support (~> 3.5.0)
+    rspec-expectations (3.5.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.5.0)
+    rspec-mocks (3.5.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.5.0)
+    rspec-support (3.5.0)
+    thor (0.19.4)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  alexa-todist_filter!
+  bundler (~> 1.13)
+  rake (~> 10.0)
+  rspec (~> 3.0)
+
+BUNDLED WITH
+   1.13.7

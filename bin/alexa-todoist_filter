@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+require "alexa/todoist_filter"
+
+Alexa::TodoistFilter::CLI.start
